@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Description</key>
+	<string>This generates a ViewController and ViewModel using Warren MVVM-C architecture.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the component to create</string>
+			<key>Identifier</key>
+			<string>componentName</string>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___View</string>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Name</key>
+			<string>View Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___State</string>
+			<key>Description</key>
+			<string>The state name</string>
+			<key>Identifier</key>
+			<string>stateName</string>
+			<key>Name</key>
+			<string>State Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___Action</string>
+			<key>Description</key>
+			<string>The action name</string>
+			<key>Identifier</key>
+			<string>actionName</string>
+			<key>Name</key>
+			<string>Action Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___Reducer</string>
+			<key>Description</key>
+			<string>The reducer name</string>
+			<key>Identifier</key>
+			<string>reducerName</string>
+			<key>Name</key>
+			<string>Reducer Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___Environment</string>
+			<key>Description</key>
+			<string>The environment name</string>
+			<key>Identifier</key>
+			<string>environmentName</string>
+			<key>Name</key>
+			<string>Environment Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_componentName:identifier___Service</string>
+			<key>Description</key>
+			<string>The service name</string>
+			<key>Identifier</key>
+			<string>serviceName</string>
+			<key>Name</key>
+			<string>Service Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>This generates a ViewController and ViewModel using Warren MVVM-C architecture.</string>
+</dict>
+</plist>
