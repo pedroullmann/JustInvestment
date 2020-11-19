@@ -1,9 +1,8 @@
-@testable import NetworkProviders
 import Foundation
+@testable import NetworkProviders
 import XCTest
 
 class EnvironmentTests: XCTestCase {
-
     func testProductionEnvironment() {
         let env: Environment = .production
         XCTAssertEqual(env.description, "Production")

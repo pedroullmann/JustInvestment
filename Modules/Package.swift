@@ -12,7 +12,6 @@ let package = Package(
             type: .dynamic,
             targets: [
                 // MARK: Root
-//                "RootElements",
 
                 // MARK: Core
                 "CoreProviders",
@@ -22,7 +21,7 @@ let package = Package(
                 // MARK: Main
                 "Primary"
             ]
-        ),
+        )
     ],
     dependencies: [
         .package(
