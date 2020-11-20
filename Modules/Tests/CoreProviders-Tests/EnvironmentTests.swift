@@ -1,5 +1,5 @@
+@testable import CoreProviders
 import Foundation
-@testable import NetworkProviders
 import XCTest
 
 class EnvironmentTests: XCTestCase {

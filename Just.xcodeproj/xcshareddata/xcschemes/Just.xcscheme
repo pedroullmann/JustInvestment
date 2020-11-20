@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Just.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CoreProviders-Tests"
+               BuildableName = "CoreProviders-Tests"
+               BlueprintName = "CoreProviders-Tests"
+               ReferencedContainer = "container:Modules">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,9 +56,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NetworkProviders-Tests"
-               BuildableName = "NetworkProviders-Tests"
-               BlueprintName = "NetworkProviders-Tests"
+               BlueprintIdentifier = "Primary-Tests"
+               BuildableName = "Primary-Tests"
+               BlueprintName = "Primary-Tests"
                ReferencedContainer = "container:Modules">
             </BuildableReference>
          </TestableReference>
@@ -52,9 +66,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Primary-Tests"
-               BuildableName = "Primary-Tests"
-               BlueprintName = "Primary-Tests"
+               BlueprintIdentifier = "CoreProviders-Tests"
+               BuildableName = "CoreProviders-Tests"
+               BlueprintName = "CoreProviders-Tests"
                ReferencedContainer = "container:Modules">
             </BuildableReference>
          </TestableReference>
