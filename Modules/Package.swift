@@ -12,6 +12,10 @@ let package = Package(
             type: .dynamic,
             targets: [
                 // MARK: Root
+                "RootElements",
+
+                // MARK: Tokens
+                "Tokens",
 
                 // MARK: Core
                 "CoreProviders",
@@ -31,9 +35,41 @@ let package = Package(
         .package(
             url: "git@github.com:pointfreeco/swift-composable-architecture.git",
             from: "0.6.0"
+        ),
+        .package(
+            name: "UIColor_Hex_Swift",
+            url: "git@github.com:yeahdongcn/UIColor-Hex-Swift.git",
+            from: "5.1.1"
         )
     ],
     targets: [
+        // MARK: Root
+        .target(
+            name: "RootElements",
+            dependencies: []
+        ),
+        .testTarget(
+            name: "RootElements-Tests",
+            dependencies: [
+                "RootElements"
+            ]
+        ),
+
+        // MARK: Tokens
+        .target(
+            name: "Tokens",
+            dependencies: [
+                "UIColor_Hex_Swift",
+                "RootElements"
+            ]
+        ),
+        .testTarget(
+            name: "Tokens-Tests",
+            dependencies: [
+                "Tokens"
+            ]
+        ),
+
         // MARK: Core
         .target(
             name: "CoreProviders",

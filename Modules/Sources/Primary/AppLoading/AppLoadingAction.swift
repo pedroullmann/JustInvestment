@@ -1,5 +1,5 @@
 import Foundation
 
-enum AppLoadingAction: Equatable {
+public enum AppLoadingAction: Equatable {
     case deleteMe
 }

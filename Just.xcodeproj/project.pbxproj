@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E7191195256603DA00214EA4 /* Modules in Frameworks */ = {isa = PBXBuildFile; productRef = E7191194256603DA00214EA4 /* Modules */; };
 		E74FE8442565B89C0013C281 /* JustApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74FE8432565B89C0013C281 /* JustApp.swift */; };
-		E74FE8462565B89C0013C281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74FE8452565B89C0013C281 /* ContentView.swift */; };
 		E74FE8482565B89E0013C281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74FE8472565B89E0013C281 /* Assets.xcassets */; };
 		E74FE84B2565B89E0013C281 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74FE84A2565B89E0013C281 /* Preview Assets.xcassets */; };
 		E7DF16F02565BEA60050D457 /* JustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF16EF2565BEA60050D457 /* JustTests.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		E74FE8402565B89C0013C281 /* Just.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Just.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74FE8432565B89C0013C281 /* JustApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustApp.swift; sourceTree = "<group>"; };
-		E74FE8452565B89C0013C281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E74FE8472565B89E0013C281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74FE84A2565B89E0013C281 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E74FE84C2565B89E0013C281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			children = (
 				E7DB769F2565B98B004D06B1 /* Resources */,
 				E74FE8432565B89C0013C281 /* JustApp.swift */,
-				E74FE8452565B89C0013C281 /* ContentView.swift */,
 				E74FE84C2565B89E0013C281 /* Info.plist */,
 				E74FE8492565B89E0013C281 /* Preview Content */,
 			);
@@ -243,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74FE8462565B89C0013C281 /* ContentView.swift in Sources */,
 				E74FE8442565B89C0013C281 /* JustApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

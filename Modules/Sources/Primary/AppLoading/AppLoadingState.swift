@@ -1,5 +1,11 @@
 import Foundation
 
-struct AppLoadingState: Equatable {
-    var isLoading = false
+public struct AppLoadingState: Equatable {
+    var isLoading: Bool
+
+    public init(
+        isLoading: Bool = false
+    ) {
+        self.isLoading = isLoading
+    }
 }

@@ -1,12 +1,20 @@
+import Primary
 import SwiftUI
 
 @main
 struct JustApp: App {
-//    @StateObject
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppLoadingView(
+                store: .init(
+                    initialState: .init(),
+                    reducer: appLoadingReducer,
+                    environment: .init(
+                        mainQueue: DispatchQueue.main.eraseToAnyScheduler(),
+                        service: .live
+                    )
+                )
+            )
         }
     }
 }

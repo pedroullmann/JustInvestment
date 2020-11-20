@@ -1,10 +1,14 @@
 import ComposableArchitecture
 import SwiftUI
 
-struct AppLoadingView: View {
-    let store: Store<AppLoadingState, AppLoadingAction>
+public struct AppLoadingView: View {
+    private let store: Store<AppLoadingState, AppLoadingAction>
 
-    var body: some View {
+    public init(store: Store<AppLoadingState, AppLoadingAction>) {
+        self.store = store
+    }
+
+    public var body: some View {
         WithViewStore(store) { viewStore in
             Text(viewStore.isLoading ? "Loading" : "Loaded")
         }
