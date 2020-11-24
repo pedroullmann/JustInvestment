@@ -56,6 +56,16 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CoreProviders-Tests"
+               BuildableName = "CoreProviders-Tests"
+               BlueprintName = "CoreProviders-Tests"
+               ReferencedContainer = "container:Modules">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Primary-Tests"
                BuildableName = "Primary-Tests"
                BlueprintName = "Primary-Tests"
@@ -66,9 +76,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CoreProviders-Tests"
-               BuildableName = "CoreProviders-Tests"
-               BlueprintName = "CoreProviders-Tests"
+               BlueprintIdentifier = "RootElements-Tests"
+               BuildableName = "RootElements-Tests"
+               BlueprintName = "RootElements-Tests"
+               ReferencedContainer = "container:Modules">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Tokens-Tests"
+               BuildableName = "Tokens-Tests"
+               BlueprintName = "Tokens-Tests"
                ReferencedContainer = "container:Modules">
             </BuildableReference>
          </TestableReference>

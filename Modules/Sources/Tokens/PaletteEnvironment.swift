@@ -5,7 +5,7 @@ private struct PaletteEnvironmentKey: EnvironmentKey {
 }
 
 public extension EnvironmentValues {
-    var theme: Palette {
+    var palette: Palette {
         get { self[PaletteEnvironmentKey.self] }
         set { self[PaletteEnvironmentKey.self] = newValue }
     }

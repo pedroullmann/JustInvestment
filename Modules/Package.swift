@@ -17,6 +17,9 @@ let package = Package(
                 // MARK: Tokens
                 "Tokens",
 
+                // MARK: CoreUI
+//                "CoreUI",
+
                 // MARK: Core
                 "CoreProviders",
 
@@ -69,6 +72,20 @@ let package = Package(
                 "Tokens"
             ]
         ),
+
+        // MARK: CoreUI
+//        .target(
+//            name: "CoreUI",
+//            dependencies: [
+//                "Tokens"
+//            ]
+//        ),
+//        .testTarget(
+//            name: "CoreUI-Tests",
+//            dependencies: [
+//                "CoreUI"
+//            ]
+//        ),
 
         // MARK: Core
         .target(

@@ -33,11 +33,14 @@ public struct CodableUserDefault<Value: Codable> {
                 return defaultValue
             }
         }
+
         set {
             do {
                 let data = try encoder.encode(newValue)
                 userDefaults.set(data, forKey: key.rawValue)
-            } catch { }
+            } catch {
+                // TODO: Logs
+            }
         }
     }
 }
